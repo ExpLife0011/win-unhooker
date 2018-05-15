@@ -1,0 +1,16 @@
+nt!_MMVAD
+   +0x000 u1               : <unnamed-tag>
+   +0x004 LeftChild        : Ptr32 _MMVAD
+   +0x008 RightChild       : Ptr32 _MMVAD
+   +0x00c StartingVpn      : Uint4B
+   +0x010 EndingVpn        : Uint4B
+   +0x014 u                : <unnamed-tag>
+   +0x018 PushLock         : _EX_PUSH_LOCK
+   +0x01c u5               : <unnamed-tag>
+   +0x020 u2               : <unnamed-tag>
+   +0x024 Subsection       : Ptr32 _SUBSECTION
+   +0x024 MappedSubsection : Ptr32 _MSUBSECTION
+   +0x028 FirstPrototypePte : Ptr32 _MMPTE
+   +0x02c LastContiguousPte : Ptr32 _MMPTE
+   +0x030 ViewLinks        : _LIST_ENTRY
+   +0x038 VadsProcess      : Ptr32 _EPROCESS

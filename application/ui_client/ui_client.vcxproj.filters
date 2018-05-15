@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{9e79f8d3-ca89-4edd-b153-04431d3ae74b}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{94289dce-3885-4597-bea8-1361efde766c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{0c15eb39-5ae4-4ac9-b4b2-f3615640e8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="storage">
+      <UniqueIdentifier>{2ec4a132-81bd-4a24-b6fd-071e28b96771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="settings">
+      <UniqueIdentifier>{53843899-21de-4ba1-952a-835ec3d876be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser">
+      <UniqueIdentifier>{4cce7d35-0e23-4be5-bfad-843da1cfdb69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{084760f7-21cf-43ae-babc-1aae74562271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="remover">
+      <UniqueIdentifier>{e048ac11-9807-430e-a010-4cf73b848ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scanner">
+      <UniqueIdentifier>{51813fc8-4b3e-426e-970b-68e3556c27a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api_hooks">
+      <UniqueIdentifier>{3479d479-0c9e-4ffb-8551-bc1f040bb05b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{06bca08e-72a0-490c-b63d-923e1fe976f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\options">
+      <UniqueIdentifier>{f932dfbc-dc4d-4f17-8838-9a073a09b75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\context">
+      <UniqueIdentifier>{1c9e42ef-bedd-48d9-a03b-0df203e9b52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window\extended">
+      <UniqueIdentifier>{4de19ad1-718f-4ab6-97b7-5c76aecf77fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{0fa4c5b0-0704-41ab-9c59-956b39133c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worklog">
+      <UniqueIdentifier>{7483b1be-4c75-416f-baa8-e3268e4fa57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encryption">
+      <UniqueIdentifier>{df5fc7ea-ff5f-486c-b7d6-54f08bcf8285}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_ui_client.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_security.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_security.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_window.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_window.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quarantine.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quarantine.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quarantine.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="pe32.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="client0.cpp">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>settings</Filter>
+    </ClCompile>
+    <ClCompile Include="cleaner.cpp">
+      <Filter>remover</Filter>
+    </ClCompile>
+    <ClCompile Include="security.cpp">
+      <Filter>scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>api_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_extended_tree.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_extended_tree.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_detected_object.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_detected_object.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quarantine_object.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quarantine_object.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_system_tray.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_system_tray.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_settings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_settings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="quarantine_handlers.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner_handlers.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="worklog.cpp">
+      <Filter>worklog</Filter>
+    </ClCompile>
+    <ClCompile Include="settings_handlers.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="encryption.cpp">
+      <Filter>encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="uibuilder.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_uibuilder.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_uibuilder.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cntxmenu_settings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cntxmenu_settings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="heuristic.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBase.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RefObject.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="system.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wintypes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="client0.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="cleaner.h">
+      <Filter>remover</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_objects.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="images.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="logs.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="worklog.h">
+      <Filter>worklog</Filter>
+    </ClInclude>
+    <ClInclude Include="encryption.h">
+      <Filter>encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="localization.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\driver\client0\shared_data.h">
+      <Filter>kernel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ui_client.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ui_client.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quarantine.h">
+      <Filter>storage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="security.h">
+      <Filter>scanner</Filter>
+    </CustomBuild>
+    <CustomBuild Include="extended_tree.h">
+      <Filter>window\extended</Filter>
+    </CustomBuild>
+    <CustomBuild Include="detected_object.h">
+      <Filter>window\context</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quarantine_object.h">
+      <Filter>window\context</Filter>
+    </CustomBuild>
+    <CustomBuild Include="system_tray.h">
+      <Filter>window\context</Filter>
+    </CustomBuild>
+    <CustomBuild Include="window.h">
+      <Filter>window</Filter>
+    </CustomBuild>
+    <CustomBuild Include="settings.h">
+      <Filter>settings</Filter>
+    </CustomBuild>
+    <CustomBuild Include="uibuilder.h">
+      <Filter>ui</Filter>
+    </CustomBuild>
+    <CustomBuild Include="cntxmenu_settings.h">
+      <Filter>window\context</Filter>
+    </CustomBuild>
+    <CustomBuild Include="heuristic.h">
+      <Filter>parser</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="appres.rc" />
+  </ItemGroup>
+</Project>
